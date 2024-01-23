@@ -36,7 +36,8 @@ public class Hw1 {
 		System.out.println("請定義一個常數為3.1415(圓周率),並計算半徑為5的圓面積與圓周長");
 		System.out.print('\n');
 
-		final double pi = 3.1415, radius = 5;
+		final double pi = 3.1415; 
+		int radius = 5;
 
 		System.out.println("圓面積 = " + pi * Math.pow(radius, 2));
 		System.out.println("圓周長 = " + radius * 2 * pi);
