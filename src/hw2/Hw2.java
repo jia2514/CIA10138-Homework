@@ -101,29 +101,32 @@ public class Hw2 {
 		int i7, j7;
 		for (i7 = 1; i7 <= 6; i7++) {
 			for (j7 = 1; j7 <= i7; j7++) {
-				switch (i7) {
-				case 1:
-					System.out.print('A');
-					break;
-				case 2:
-					System.out.print('B');
-					break;
-				case 3:
-					System.out.print('C');
-					break;
-				case 4:
-					System.out.print('D');
-					break;
-				case 5:
-					System.out.print('E');
-					break;
-				case 6:
-					System.out.print('F');
-					break;
+				System.out.print((char)(i7+64));
+				
+//				switch (i7) {
+//				case 1:
+//					System.out.print('A');
+//					break;
+//				case 2:
+//					System.out.print('B');
+//					break;
+//				case 3:
+//					System.out.print('C');
+//					break;
+//				case 4:
+//					System.out.print('D');
+//					break;
+//				case 5:
+//					System.out.print('E');
+//					break;
+//				case 6:
+//					System.out.print('F');
+//					break;
+//
+//				}
+//				;
 
-				}
-				;
-
+				
 //				if (i7 == 1) {
 //					System.out.print('A');
 //				}
