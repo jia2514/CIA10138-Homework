@@ -1,7 +1,5 @@
 package hw2;
 
-import javax.xml.stream.XMLInputFactory;
-
 public class Hw2 {
 
 	public static void main(String[] args) {
