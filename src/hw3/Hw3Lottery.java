@@ -23,28 +23,27 @@ public class Hw3Lottery {
 
 	public void printArray(int[][] array) {
 		int count = 0;
-		int numA = 1;
+		int j = 0;
 
 		for (int i = 0; i < array.length; i++) {
 
-			if (numA == 0) {
+			if (array[i][j] == 0) {
 				break;
 			}
 
-			for (int j = 0; j < array[i].length; j++) {
+			for (j = 0; j < array[i].length; j++) {
 
-				numA = array[i][j];
-
-				if (numA == 0) {
+				if (array[i][j] == 0) {
 					System.out.print("總共有" + count + "數字可選\n");
 					break;
 				}
-				System.out.print(numA + " " + '\t');
+
+				System.out.print(array[i][j] + " " + '\t');
 				count++;
 
 			}
 			;
-
+			j = 0;
 			System.out.print('\n');
 
 		}
