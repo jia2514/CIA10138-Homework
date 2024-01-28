@@ -54,10 +54,10 @@ public class Hw3Lottery {
 
 		System.out.println("阿文...請輸入你討厭哪個數字?");
 
-		int i = 0;
+		int hateNum = 0;
 		Scanner sc = new Scanner(System.in);
 		if (sc.hasNextInt()) {
-			i = sc.nextInt();
+			hateNum = sc.nextInt();
 		}
 		;
 
@@ -67,7 +67,7 @@ public class Hw3Lottery {
 		int[] x = new int[50];
 
 		for (int num = 1; num <= 49; num++) {
-			if ((num / 10 == i) || (num % 10 == i))
+			if ((num / 10 == hateNum) || (num % 10 == hateNum))
 				continue;
 			x[index] = num;
 			index++;
