@@ -26,9 +26,9 @@ public class Hw6Calculator {
 
 	public void setY(int y) throws Hw6CalException {
 		if (x == 0 && y == 0)
-			throw new Hw6CalException("x與y同時為0");
+			throw new Hw6CalException("0的0次方沒有意義!");
 		else if (y < 0)
-			throw new Hw6CalException("y為負值,而導致x的y次方結果不為整數");
+			throw new Hw6CalException("次方為負值,結果回傳不為整數!");
 		else
 			this.y = y;
 	};
@@ -42,7 +42,7 @@ public class Hw6Calculator {
 	};
 
 	public void powerXY() {
-		System.out.println(Math.pow(x, y));
+		System.out.println(x + "的" + y + "次方等於" + (int)Math.pow(x, y));
 	};
 
 }
