@@ -18,9 +18,7 @@ public class Hw7_5 {
 		try {
 			while (true) {
 				((Animal) ois.readObject()).speak();
-				// ois.readObject().show(); 用Object類別呼叫show()方法, 報錯
-				// (Book) ois.readObject().show(); 還是用Object呼叫show()方法, 報錯
-
+				
 				System.out.println("--------------------");
 			}
 		} catch (Exception e) {
