@@ -31,7 +31,7 @@ public class Hw5MaxElement {
 		return maxElement;
 	}
 
-	public static void main(String[] Args) {
+	public static void main(String[] args) {
 
 		int[][] intArray = { { 1, 6, 3 }, { 9, 5, 2 } };
 

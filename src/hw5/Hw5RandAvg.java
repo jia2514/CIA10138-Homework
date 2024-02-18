@@ -42,7 +42,7 @@ public class Hw5RandAvg {
 	
 	
 
-	public static void main(String[] Args) {
+	public static void main(String[] args) {
 		Hw5RandAvg sa = new Hw5RandAvg();
 		sa.randAvg();
 	}

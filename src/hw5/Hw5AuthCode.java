@@ -28,7 +28,7 @@ public class Hw5AuthCode {
 
 	}
 
-	public static void main(String[] Args) {
+	public static void main(String[] args) {
 
 		System.out.println("本次隨機產生驗證碼為:");
 

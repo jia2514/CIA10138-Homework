@@ -11,7 +11,7 @@ public class Hw6CalTest {
 //	2. y為負值,而導致x的y次方結果不為整數
 //	3. x與y皆正確情況下,會顯示運算後結果
 
-	public static void main(String[] Args) {
+	public static void main(String[] args) {
 
 		while (true) {
 
