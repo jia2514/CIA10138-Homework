@@ -16,7 +16,7 @@ public class Hw7_4 {
 
 		File file = new File("C:\\data\\Object.ser");
 
-		Animal[] animal = new Animal[4];
+		AnimalSpeak[] animal = new AnimalSpeak[4];
 		animal[0] = new Dog("斑斑");
 		animal[1] = new Dog("點點");
 		animal[2] = new Cat("小條");
