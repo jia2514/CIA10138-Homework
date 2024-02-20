@@ -17,14 +17,9 @@ public class Hw7_5 {
 		System.out.println("--------------------");
 		try {
 			while (true) {
-<<<<<<< HEAD
-				((Animal) ois.readObject()).speak();
-				
-=======
-				((AnimalSpeak) ois.readObject()).speak();
-				
 
->>>>>>> hw7
+				((AnimalSpeak) ois.readObject()).speak();
+
 				System.out.println("--------------------");
 			}
 		} catch (Exception e) {
