@@ -1,4 +1,4 @@
-package hw.ext;
+package hwext;
 
 public class Pencil extends Pen {
 

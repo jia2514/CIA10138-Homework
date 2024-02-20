@@ -1,4 +1,4 @@
-package hw.ext;
+package hwext;
 
 abstract class Pen {
 
