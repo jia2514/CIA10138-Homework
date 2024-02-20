@@ -1,4 +1,4 @@
-package hw_ext;
+package hw.ext;
 
 abstract class Pen {
 
