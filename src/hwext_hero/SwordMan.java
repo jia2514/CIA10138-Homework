@@ -1,6 +1,6 @@
 package hwext_hero;
 
-public class SwordMan extends Hero{
+public class SwordMan extends Hero {
 
 	public SwordMan() {
 		super();
@@ -10,6 +10,4 @@ public class SwordMan extends Hero{
 		super(name, level, exp);
 	}
 
-	
-	
 }

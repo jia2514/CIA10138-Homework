@@ -1,14 +1,13 @@
 package hwext_hero;
 
-public class ArrowMan extends Hero{
-	
-		public ArrowMan() {
-			super();
-		}
+public class ArrowMan extends Hero {
 
-		public ArrowMan(String name, int level, double exp) {
-			super(name, level, exp);
-		}
+	public ArrowMan() {
+		super();
+	}
 
-	
+	public ArrowMan(String name, int level, double exp) {
+		super(name, level, exp);
+	}
+
 }

@@ -15,7 +15,6 @@ public class RoleGameTest {
 		archer.setMoveBehavior(new MoveRun());
 		archer.setDefendBehavior(new DefendAction());
 
-		
 		saber.attack();
 		archer.attack();
 	}
